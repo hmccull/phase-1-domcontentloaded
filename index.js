@@ -1,7 +1,5 @@
 // create event listener to detect when the HTML page has loaded
-document.addEventListener('DOMContentLoaded', function() {
-    replaceText();
-});
+document.addEventListener('DOMContentLoaded', () => replaceText());
 
 // callback function to create p element with id='text' and replace text
 function replaceText() {
